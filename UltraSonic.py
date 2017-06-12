@@ -19,7 +19,7 @@ class  IHandler():   #provides interrupt handlers
 class UltraSonic():
     def __init__(self,trig,echo):
         self.tp=Pin(trig,Pin.OUT)    #trigger pin set to output
-        self.ep=Pin(trig,Pin.IN)     #echo pin set to input
+        self.ep=Pin(echo,Pin.IN)     #echo pin set to input
         self.start=0
         self.stop=0
 
