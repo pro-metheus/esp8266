@@ -21,7 +21,7 @@ class UltraSonic():
         self.tp=Pin(trig,Pin.OUT)    #trigger pin set to output
         self.ep=Pin(trig,Pin.IN)     #echo pin set to input
         self.start=0
-        self.stop=0s
+        self.stop=0
 
     
 
